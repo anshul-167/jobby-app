@@ -1,0 +1,17 @@
+.home-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  font-family: Roboto;
+  height: 100vh;
+}
+.main-head-home {
+  color: #ffffff;
+ 
+  font-size: 6vh;
+}
+.para-home {
+  color: #ffffff;
+}
+.bottom-cont {
+  padding: 5%;
+}

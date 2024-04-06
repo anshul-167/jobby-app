@@ -1,0 +1,45 @@
+.job-details-main-cont {
+  background-color: #000000;
+  padding-bottom: 5%;
+}
+.link-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.skills-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+}
+.each-skill-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+.skill-name {
+  font-size: 12px;
+}
+.life-cont {
+  display: flex;
+  align-items: center;
+}
+.life-img {
+  margin-left: 5%;
+  height: 100px;
+}
+.similar-main-cont{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}

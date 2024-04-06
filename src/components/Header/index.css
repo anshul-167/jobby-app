@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+}
+.logout-button {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #4f46e5;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logo-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.tabs-cont {
+  display: flex;
+  list-style-type: none;
+}
+.tab-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #f8fafc;
+  font-weight: bold;
+  cursor: pointer;
+}

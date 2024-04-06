@@ -1,0 +1,23 @@
+.profile-name {
+  color: #6366f1;
+  font-size: 15px;
+}
+.profile-para {
+  color: #6366f1;
+  font-size: 10px;
+}
+.profile-details-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
