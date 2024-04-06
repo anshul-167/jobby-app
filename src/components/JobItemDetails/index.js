@@ -83,6 +83,7 @@ class JobItemDetails extends Component {
     return (
       <>
         <h2>Similar Jobs</h2>
+
         <ul className="similar-main-cont">
           {similarJobs.map(each => (
             <li className="job-item-cont" key={each.id}>
@@ -189,6 +190,7 @@ class JobItemDetails extends Component {
                     ))}
                 </ul>
                 <h2>Life at Company</h2>
+
                 <div className="life-cont">
                   <p className="skill-name">
                     {jobDetails.lifeAtCompany &&

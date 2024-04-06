@@ -3,6 +3,7 @@ import Cookies from 'js-cookie'
 import {FaSearch} from 'react-icons/fa'
 import Loader from 'react-loader-spinner'
 import Header from '../Header'
+
 import JobItem from '../JobItem'
 
 import './index.css'
@@ -281,6 +282,7 @@ class Jobs extends Component {
             {this.renderEmploymentFilters()}
             {this.renderSalaryFilters()}
           </div>
+
           <div className="right-cont">
             <div className="searchbar-cont">
               <input
